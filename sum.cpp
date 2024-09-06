@@ -14,4 +14,5 @@ int sum(int n)
 
 int main()
 {
+    cout << "sum is : " << sum(5) << endl;
 }
