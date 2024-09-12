@@ -14,5 +14,7 @@ int climbingStair(int n)
 
 int main()
 {
-    int n = 5;
+    int n = 11;
+    int answer = climbingStair(n);
+    cout << answer << endl;
 }
