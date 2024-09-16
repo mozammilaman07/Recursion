@@ -3,10 +3,12 @@ using namespace std;
 
 void printArray(int arr[], int size, int index)
 {
-    if (size >= index)
+    if (index >= size)
     {
         return;
     }
+    cout << arr[index] << " ";
+    printArray(arr, size, index + 1);
 }
 
 int main()
