@@ -3,6 +3,10 @@ using namespace std;
 
 void printArray(int arr[], int size, int index)
 {
+    if (size >= index)
+    {
+        return;
+    }
 }
 
 int main()
