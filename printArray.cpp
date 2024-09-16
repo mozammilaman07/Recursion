@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+void printArray(int arr[], int size, int index)
+{
+}
+
 int main()
 {
     int arr[] = {10, 20, 30, 40, 50};
