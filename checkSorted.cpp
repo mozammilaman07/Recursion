@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+bool checkSorted(int arr[], int size, int index)
+{
+}
+
 int main()
 {
     int arr[] = {10, 20, 30, 40, 50, 70};
