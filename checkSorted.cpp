@@ -3,6 +3,17 @@ using namespace std;
 
 bool checkSorted(int arr[], int size, int index)
 {
+    if(index >= size){
+        return true;
+    }
+
+    if(arr[index]>arr[index - 1]){
+        int aagekaAns = checkSorted(arr,size,index);
+        return aagekaAns;
+    }
+    else{
+        return false;
+    }
 }
 
 int main()
