@@ -18,6 +18,10 @@ int factorial(int n)
     return ans;
 }
 
+void fibonacci(int n)
+{
+}
+
 int main()
 {
 
